@@ -36,16 +36,17 @@
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
         <form>
-          <div>
+          <div class="item form-item">
             <label for="location">Location</label>
             <input
               id="location"
               type="text"
               name="loaction"
               placeholder="Search destination"
+              autofocus="on"
             />
           </div>
-          <div>
+          <div class="item form-item">
             <label for="Arrive">Arrive</label>
             <input
               id="arrive"
@@ -54,7 +55,7 @@
               placeholder="mm/dd/yyyy"
             />
           </div>
-          <div>
+          <div class="item form-item">
             <label for="Depart">Depart</label>
             <input
               id="depart"
@@ -63,7 +64,7 @@
               placeholder="mm/dd/yyyy"
             />
           </div>
-          <div>
+          <div class="item form-item">
             <label for="type">Type</label>
             <select name="type" id="type" size="1">
               <option value="arial">Apartment</option>
@@ -72,7 +73,9 @@
               <option value="papyrus">Hotel</option>
             </select>
           </div>
-          <button type="submit">Search</button>
+          <div class="item form-item">
+            <button type="submit">Search</button>
+          </div>
         </form>
       </section>
 
@@ -143,26 +146,26 @@
         <h2>Want to Become a Thinkfulbnb Host?</h2>
         <div class="group">
           <div class="item">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
-            Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
-            pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
-            libero rutrum vitae.
-          </p>
-          
-          <ul>
-            <li>Mauris in pellentesque ligula.</li>
-            <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
-            <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
-            <li>
-              Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.
-            </li>
-            <li>
-              Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce
-              eget hendrerit mauris.
-            </li>
-          </ul>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              molestie in est id efficitur. Sed hendrerit ut turpis quis
+              dapibus. Nam sit amet iaculis lectus. Aliquam erat volutpat.
+              Praesent rhoncus pellentesque eros in aliquet. Sed accumsan elit
+              lacus, id ultrices libero rutrum vitae.
+            </p>
+
+            <ul>
+              <li>Mauris in pellentesque ligula.</li>
+              <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
+              <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
+              <li>
+                Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.
+              </li>
+              <li>
+                Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce
+                eget hendrerit mauris.
+              </li>
+            </ul>
           </div>
           <div class="item item-double">
             <img
